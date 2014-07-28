@@ -6,6 +6,15 @@ First you'll need to install the KVM and KRE:
 
 https://github.com/aspnet/Home/wiki/version-manager
 
+## Setting the KRE Examples
+
+- ```kvm install 0.1-alpha-build-0446```
+- ```kvm upgrade```
+- ```kvm list```
+- ```kvm use 0.1-alpha-build-0446```
+- ```kvm list```
+
+
 ## Running the samples
 
 ### Console

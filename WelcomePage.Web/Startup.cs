@@ -6,6 +6,9 @@ namespace KWebStartup
     {
         public void Configure(IBuilder app)
         {
+            app.UseErrorPage();
+
+            app.UseStaticFiles();
             app.UseWelcomePage();
         }
     }
